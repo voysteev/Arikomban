@@ -16,7 +16,7 @@ db = mysql.connector.connect(
 )
 cursor = db.cursor(dictionary=True)
 
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KE")
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 
 def get_coordinates_from_place(place_name):
     """Convert a place name to latitude and longitude using Google Geocoding API."""
