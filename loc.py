@@ -1,6 +1,6 @@
 import requests
 
-API_KEY = "AIzaSyD3t4rva-Fr3Z2EpmMpuBxjbVlID3Qw5TI"
+API_KEY = ""
 
 def get_geolocation():
     url = f"https://www.googleapis.com/geolocation/v1/geolocate?key={API_KEY}"
