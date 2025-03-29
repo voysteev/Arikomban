@@ -6,15 +6,15 @@ from datetime import datetime
 from ultralytics import YOLO
 
 # Telegram Bot Setup
-BOT_TOKEN = "7506176766:AAHwb3LCyiqAPAkC02_9bjAQNQkxIOzaND4"
-CHAT_ID = "922404220"
+BOT_TOKEN = ""
+CHAT_ID = ""
 bot = telebot.TeleBot(BOT_TOKEN)
 previous = "person"
 # AWS S3 Configuration
 S3_BUCKET = "wildlifedetections"  # Replace with your bucket name
 S3_REGION = "eu-north-1"  # Replace with your region
-AWS_ACCESS_KEY = "AKIAWCYYAJERYZ6WRFKM"
-AWS_SECRET_KEY = "QY2y7o9alz5axHv8IGnBn1FEvci2I+YO9+9slAgR"
+AWS_ACCESS_KEY = ""
+AWS_SECRET_KEY = ""
 
 # Initialize S3 Client
 s3 = boto3.client("s3", aws_access_key_id=AWS_ACCESS_KEY, aws_secret_access_key=AWS_SECRET_KEY)
