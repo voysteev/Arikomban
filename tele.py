@@ -2,8 +2,8 @@ import cv2
 import telebot
 from ultralytics import YOLO
 
-BOT_TOKEN = "7506176766:AAHwb3LCyiqAPAkC02_9bjAQNQkxIOzaND4"
-CHAT_ID = "922404220"
+BOT_TOKEN = ""
+CHAT_ID = ""
 bot = telebot.TeleBot(BOT_TOKEN)
 previous = "person"
 
