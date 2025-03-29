@@ -5,8 +5,8 @@ from datetime import datetime
 from ultralytics import YOLO
 
 # Telegram Bot Setup
-BOT_TOKEN = "7506176766:AAHwb3LCyiqAPAkC02_9bjAQNQkxIOzaND4"
-CHAT_ID = "922404220"
+BOT_TOKEN = ""
+CHAT_ID = ""
 bot = telebot.TeleBot(BOT_TOKEN)
 
 # MySQL Database Connection (AWS RDS)
