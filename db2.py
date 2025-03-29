@@ -11,8 +11,8 @@ CHAT_ID = ""
 bot = telebot.TeleBot(BOT_TOKEN)
 previous = "person"
 # AWS S3 Configuration
-S3_BUCKET = "wildlifedetections"  # Replace with your bucket name
-S3_REGION = "eu-north-1"  # Replace with your region
+S3_BUCKET = ""  # Replace with your bucket name
+S3_REGION = ""  # Replace with your region
 AWS_ACCESS_KEY = ""
 AWS_SECRET_KEY = ""
 
